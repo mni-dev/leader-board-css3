@@ -1,0 +1,15 @@
+.container {
+    
+}
+.container> .top-players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player {
+    display: flex;
+    flex-flow: row wrap;
+}
+.player img {
+    width: 56px;
+    height: 56px;
+}
